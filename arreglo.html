@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tarea 6 asincronica</title>
+</head>
+<body>
+    <h1>tarea 6 asincronica</h1>
+    <Script>
+        /*Debés crear una función llamada `arregloDeObjetos` que reciba un número y una
+        palabra como parámetro y devuelva un arreglo de objetos que tenga: una
+        propiedad llamada como la palabra pasada por parámetro y el valor del número y
+        sus anteriores.*/
+        function arregloDeObjetos (numero, palabras){
+            const array = []
+            for (let i=0; i < numero; i++) {
+            const obj = {}
+            obj[palabras]=i
+            array.push(obj)        
+            }
+            return array;
+        }
+
+    </Script>
+    
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>tarea 6 asincronica</h2>
+    <script>
+  // En este ejercicio, deberás crear un Arreglo llamado películas, que tenga -por cada
+  //película- un Objeto con las siguientes Propiedades
+        let peliculas = [
+            {
+                titulo: "rocky",
+                rating : 4,
+                loHasVisto : true
+            },
+
+            {
+                titulo: "batman",
+                rating : 3,
+                loHasVisto : true
+            },
+
+            {
+                titulo: "agente topo",
+                rating : 2,
+                loHasVisto : false
+            }
+        ];
+
+        for (let i = 0 ; i< peliculas.length ; i ++){
+            if(peliculas[i].loHasVisto == true){
+                console.log("viste "+peliculas[i].titulo+" - "+ peliculas[i].rating+ " estrellas");
+            } else {
+                console.log("no viste "+peliculas[i].titulo+" - "+ peliculas[i].rating+ " estrellas");
+            }
+        }
+
+
+    </script>
+</body>
+</html>
